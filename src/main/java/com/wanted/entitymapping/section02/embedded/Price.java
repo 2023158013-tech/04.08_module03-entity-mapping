@@ -7,7 +7,7 @@ import lombok.Setter;
 
 //@Getter
 //@Setter
-@Embeddable //임베드: 어디선가 가져온다
+@Embeddable //임베디드: 어디선가 가져온다
 public class Price {
 
     @Column(name = "regular_price")
